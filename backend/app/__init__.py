@@ -57,6 +57,3 @@ def create_app(config_class=DevelopmentConfig):
 
     return app
 
-# Application instance for WSGI servers (Gunicorn / Render)
-app = create_app()
-
